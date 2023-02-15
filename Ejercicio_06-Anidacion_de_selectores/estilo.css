@@ -1,0 +1,11 @@
+.pseudo-elementos::before{
+    content: 'Pasa por encima ';
+}
+.pseudo-elementos:hover::after{
+    content: '¡Hecho!';
+    color: white;
+    background-color: green;
+}
+button{
+    font-size: x-large;
+}
